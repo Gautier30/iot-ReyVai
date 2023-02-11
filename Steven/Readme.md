@@ -5,8 +5,8 @@
 MSc Robotics and Computer Engineering student
 
 ### Protocols
-- HTTP
-- TCP/IP
+- **HTTP:** Hypertext Transfer Protocol
+- **TCP/IP:** Transmission Control Protocol
 
 ### Devices
 - Raspberry Pi
