@@ -27,3 +27,4 @@ MSc Robotics and Computer Engineering student
 - Security
 - Scalabity
 
+# WEEK 2
