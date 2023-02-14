@@ -1,0 +1,7 @@
+I am pleased with the progress we made in understanding the concept of IoT and its various components. I now have a better understanding of the various domains, protocols, appliances and devices, benefits, and challenges associated with IoT. The interactive approach of the lecture was engaging and kept me focused, which I appreciated. The "who am I?" exercise was particularly helpful in providing clarity and insights into my own thoughts and experiences.
+
+I was impressed by the experiences of my peers in the class and feel that I got a strong foundation for understanding the different aspects of IoT. I am confident that I can continue to build upon this foundation and deepen my understanding of the topic.
+
+I am satisfied with my progress in learning about IoT and look forward to exploring the topic.
+
+The reflecting is something that takes some time to get used to but I hope to get better at it as time passes. I don't know If I should try to do these reflections in a "all is good all is well" and a happy style like I have written it right now or I should be more self critical in my writing. I hope this style of writing doesn't create false confidence. Going forward I probably will write shorter reflections.

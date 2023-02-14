@@ -1,0 +1,1 @@
+We were editing whis document by ticking items and adding some comments about the parts. https://docs.google.com/spreadsheets/d/1fLWOfnRmRYBiHimDT01P7l9Acyzl0UH3qg7LzRfT2fk/edit#gid=0
