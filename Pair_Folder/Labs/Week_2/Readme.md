@@ -1,3 +1,6 @@
+Obs: To get the Arduino IDE 2 to recognize the ESP8266 we had to tell on PREFERENCES > SETTINGS Aditional boards manager URLs: 
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 ### Breadboard and Electronic Prototyping
 
 For this step nothing to tricky, with the video and previous experience we easily had the circuit mounted on the breadboard as shown on the picture below:
@@ -12,6 +15,7 @@ Then we added a button to control the red LED. As shown by the two pictures belo
 
 ### Blink on the Wemos D1 Mini
 
+
 As shown in the GIF below, we got the Blink sketch working on the D1 Mini, and we also added some extra LEDs. To make sure they blink in sync we altered the example sketch by reversing the order of High and Low states on the built-in LED, since we know it's reversed.
 
 ![alt text](../../Pictures/Week_2/blink.gif)
@@ -20,5 +24,7 @@ As shown in the GIF below, we got the Blink sketch working on the D1 Mini, and w
 ### Toggle Led With Button
 
 Combining the wiring of the two previous steps, we managed to get the LED to be lit by button presses, relying on digitalRead() and digitalWrite() functions. A key element here is the pull down resistor between the button's output and the ground. Without this resistor the MCU registers a High state on the pin and the LED lights up although the button is technically not pressed. 
+
+OBS: We must remember to wire the button with a pulldown resistor to work properly.
 
 ![alt text](../../Pictures/Week_2/button.gif)
