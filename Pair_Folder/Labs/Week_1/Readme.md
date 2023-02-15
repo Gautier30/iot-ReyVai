@@ -1,8 +1,8 @@
 ### The Git repository
 
-This week's lab was all about building the pair repo with Oliver to store our work and portfolios. We basically teamed up because we were sitting next to each other in the classroom. He has some experience with IoT, and so do I, it should be a good match. Steven also joined us temporarily, until his actual pairmate shows up.
+This week's lab was all about building the pair repo with Oliver to store our work and portfolios. We basically teamed up because we were sitting next to each other in the classroom. We both have some IoT experience, it should be a good match. Steven also joined us temporarily, until his actual pairmate shows up.
 
-About the team for the final project, I'd rather not rush things. I know from experience I need to know the people I work with. A group project is a serious commitment and far too often was I let down.
+About the team for the final project, we'd rather not rush things and make sure to team up with good matches in terms of work.
 
 ### The Kit
 

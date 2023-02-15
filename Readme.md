@@ -2,9 +2,9 @@
 
 In this repo there are three different portfolios. One for each student.
 
-## Gautier (student ID (?))
+## Gautier
 [Gautier](/Gautier/Readme.md)
-## Oliver (student ID (?))
+## Oliver
 [Oliver](/Oliver/Readme.md)
-## Steven (student ID (?))
-[Steven](/Steven/Readme.md)
+## Renato
+[Renato](/Renato/Readme.md)
