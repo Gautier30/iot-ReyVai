@@ -3,8 +3,8 @@
 In this repo there are three different portfolios. One for each student.
 
 ## Gautier (student ID (?))
-[Gautier](/Gautier/README.md)
+[Gautier](/Gautier/Readme.md)
 ## Oliver (student ID (?))
-[Oliver](/Oliver/README.md)
+[Oliver](/Oliver/Readme.md)
 ## Steven (student ID (?))
-[Steven](/Steven/README.md)
+[Steven](/Steven/Readme.md)
