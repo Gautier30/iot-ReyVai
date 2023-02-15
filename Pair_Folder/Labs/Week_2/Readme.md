@@ -22,8 +22,3 @@ As shown in the GIF below, we got the Blink sketch working on the D1 Mini, and w
 Combining the wiring of the two previous steps, we managed to get the LED to be lit by button presses, relying on digitalRead() and digitalWrite() functions. A key element here is the pull down resistor between the button's output and the ground. Without this resistor the MCU registers a High state on the pin and the LED lights up although the button is technically not pressed. 
 
 ![alt text](../../Pictures/Week_2/button.gif)
-
-
-### Reflection (Second lab)
-
-This lab was quite straight forward. So far nothing new personnaly.

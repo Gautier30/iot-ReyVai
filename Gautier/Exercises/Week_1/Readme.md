@@ -34,6 +34,3 @@ Two more IoT **domains** are agriculture and healthcare.
 Some **benefits** of IoT are that it allows to connect devices together, which is a high value proposition, while those devices on their own would not be of a huge interest. IoT provides monitoring and remote control of assets and resources which ultimately make the users' lives easier.
 
 Some **challenges** of IoT are mainly the vulnerability of the systems and the growing power consumption of modern network protocols, which implies batteries need to be improved.
-
-### Reflection
-I enjoyed this introduction to the class. The very relaxed atmosphere is promising and I feel like these learning conditions will make for a really motivating IoT introduction. I am eager to start working on the labs and projects, and hope the TAs will help clear any doubts.

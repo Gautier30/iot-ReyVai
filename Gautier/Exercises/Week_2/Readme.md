@@ -63,7 +63,3 @@ High means 3.3V and Low means 0V are sent out of a GPIO port.
 Examples are contained within the Arduino IDE.
 
 The built-in LED is wired on the board's D4 GPIO. Which means we can hook up another component to this pin and it will alternate between High and Low states as the LED blinks. The built-in LED is inverted.
-
-### Reflection (Second lecture)
-
-This lecture was interesting as we teamed up to research on the different buses used in IoT. Finding information ourselves was actually more stimulating than just reading a lecture slide. Plus, presenting it to the class with our own words ensures we first try to understand ourselves.
