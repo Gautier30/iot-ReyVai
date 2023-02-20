@@ -1,10 +1,4 @@
 # Reflections
 
 ## week 1
-
-## Lecture reflection
-...
-
-
-## Lab reflection
-...
+I was absent from the first week of the course. So I can not reflect on the activities.
