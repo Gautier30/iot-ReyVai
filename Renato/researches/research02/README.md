@@ -8,7 +8,7 @@ Related domains are Agriculture, Healthcare, Pollution Control, Smart Cities, Sm
 That idea of sustainable living is relevant to me and I strive for being as sustainable as possible.
 I believe that IoT can help sustainability in all the domains cited above, but also in creating awareness about relevant issues.
 
-A good project envolving IoT and Sustainability:
+A good project evolving IoT and Sustainability:
 A Smart trail in a National park.
 The trail can be interactive and can connect sensor and actuator that form different areas that can converse with each other. 
 A step farther would be to create a gamefication of the trail with interactivity for the users enjoy and learn the about the park and the trail in a unique manner. 
