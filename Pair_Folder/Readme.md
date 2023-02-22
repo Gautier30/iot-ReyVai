@@ -10,6 +10,8 @@ Here we store all the exercises, pictures and projects we did in the exercise le
 
 [Week 2](Labs/Week_2/Readme.md)
 
+[Week 3](Labs/Week_3/Readme.md)
+
 ## Projects
 
 ## Pictures
