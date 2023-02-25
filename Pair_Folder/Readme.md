@@ -17,3 +17,5 @@ Here we store all the exercises, pictures and projects we did in the exercise le
 ## Pictures
 
 [Week 2](Pictures/Week_2)
+
+[Week 3](Pictures/Week_3)
