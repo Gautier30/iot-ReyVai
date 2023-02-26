@@ -72,6 +72,11 @@ As an extra step we added a third µ-controller with a regular button mounted on
 
 [Client](../../Arduino_sketches/ESP_Blink_button_Lab3/ESP_Blink_button_Lab3.ino)
 
+**ISSUES:**
+
+On the button web request we experienced some issues regarding that the client kept sending web requests continuously after the first button pressed. This was probably due to time it was needed to get a response from the Server. A delay together with the http.end() function fixed this problem.  
+
+
 ## Stories/Scenarios
 
 Find a way to grown micro-greens indoors in our homes. 
