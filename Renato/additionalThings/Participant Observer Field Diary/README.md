@@ -1,6 +1,10 @@
 # Observant participant diary in the Internet of Things course - Spring 2023
 
 
+Portfolio
+Each person in the group should have branch. 
+
+
 ##  Week 1
 I was not present in the first week unfortunately. 
 
@@ -59,3 +63,11 @@ OBS: I believe that this lab needs to be split in 2 or the scenario part must be
 I started searching for a research strategy to help me be a participant observer in the IoT class this Spring. I started making contact with some anthropologists. I am also planning to team up with Franaz and Matevz to help put together a survey to collect some data from the students. 
 
 ## Week 4
+
+I found that posting to Discord made things a bit confusing to read and discuss.
+The video played in fastspeed not so good. 
+
+Share the finds verbally with group was better and faster.
+
+
+Video can start on the action already.
