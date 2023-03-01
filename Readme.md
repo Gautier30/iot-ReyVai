@@ -1,4 +1,4 @@
-# Combined repository of Gautier, Oliver, and Steven
+# Combined repository of Gautier, Oliver, and Renato
 
 In this repo there are three different portfolios. One for each student. And reports for pair and team work.
 
