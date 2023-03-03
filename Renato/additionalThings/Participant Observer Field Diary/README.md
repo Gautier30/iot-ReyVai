@@ -12,6 +12,8 @@ I was not present in the first week unfortunately.
 
 Portfolios. I personally had a hard time understanding how the portfolios should be done. I was really lost, and the classroom time was so fast passed that I was overwhelmed by it all. I believe it is really important to have a **whole lecture(class)** or even 2 to explain and show examples of good portfolios of the past. Explain the importance of it and make it clear of what is expected of the students. Talked to some other students that actually felt the same. Especially those who joined the class latter.
 
+Maybe a part of the more pragmatic part of the portfolio can be done in an automated form (google form?) format to help grading latter. 
+
 The lab to set up the Github is nice practical side of this assignment but should be there to compliment the lecture on it.
 
 
@@ -71,3 +73,5 @@ Share the finds verbally with group was better and faster.
 
 
 Video can start on the action already.
+
+Discussing with Matevz today I realized that the portfolio is a pedagogical tool to better students habits on documentation. Documenting their work through git and markup is way for them to get used to this part of programming. 
