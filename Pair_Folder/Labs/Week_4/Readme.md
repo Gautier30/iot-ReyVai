@@ -58,12 +58,12 @@ We installed mosquitto using
 Then from Olivers computer using wsl: 
 > mosquitto_sub -t test -h iotgateway
 
-![alt text](../../Pictures/Week_4/hioliver.jpg)
+![alt text](../../Pictures/Week_4/hioliver.JPG "sub")
 
 And from Gautiers computer using ubuntu
 > mosquitto_pub -t test -m "Hi Oliver" -h iotgateway
 
-![alt text](../../Pictures/Week_4/mqtt_msg_pub.jpg)
+![alt text](../../Pictures/Week_4/mqtt_msg_pub.JPG "pub")
 
 The message received on Olivers side was 
 
@@ -89,7 +89,7 @@ We used the example provided by ulno as a template and modified it to fit our sc
 
 Here's the output of a terminal listening on "#"
 
-![alt text](../../Pictures/Week_4/mqtt_temp_with_ac.jpg)
+![alt text](../../Pictures/Week_4/mqtt_temp_with_ac.JPG "temp_ac")
 
 
 [AC simulator](../../Arduino_sketches/Python_cripts_Lab4/AC_sim.py) is running in one terminal and<br>
