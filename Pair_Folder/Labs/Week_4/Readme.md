@@ -20,4 +20,15 @@ List of IoT:
 - Monitoring data daily (graph the data);
 - CO2 sensor;
 - Timelapse the growth of plants (Instagram);
+- dashboard;
 - music wth the plant
+
+When is the data collect, when to rewater, when do we need more light. Where is human interaction, where is data inserted in the story.
+
+Examples 
+
+Click and Grow
+Richard has growing 
+
+
+Simulate water
