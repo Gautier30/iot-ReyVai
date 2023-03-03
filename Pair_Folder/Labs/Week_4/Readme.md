@@ -38,19 +38,19 @@ Simulate water
 
 We want to demonstrate different ways we can communicate between devices using mqtt. We will measure the temperature but this can be done using the light sensor the same way.
 
-    List of tools used, including:
-        MQTT client(s) installed on each laptop
-        IoTempower gateway
-        2 Wemos D1 Minis
-        the tripler board
-        the dallas temperature shield
-        and the relay shield:
-
 ## Communication Examples
 
-We have 3 examples with increasing complexity. Example 1 for basic communication between 2 laptops. Example 2 for simulating a temperature sensor and an ac being turned on based on the temperature reading. Example 3 uses an actual temperature sensor and a relay.
+We have 3 examples with increasing complexity:
 
-**Example 1**: Sending messages between two laptops
+- Example 1 for basic communication between 2 laptops. 
+- Example 2 for simulating a temperature sensor and an ac being turned on based on the temperature reading. 
+- Example 3 uses an actual temperature sensor and a relay.
+
+## Example 1: Sending messages between two laptops
+
+Tools used:
+- MQTT client(s) installed on each laptop
+- IoTempower gateway
 
 We installed mosquitto using 
 > sudo apt install mosquitto
@@ -69,31 +69,35 @@ The message received on Olivers side was
 
 "Hi Oliver"
 
+## Example 2: Rebuilding Air Conditioning unit
+
+We wanted to simulate a temperature sensor and an air conditioning unit being turned on or off based on the temperature reading.
+
+Tools Used
+
+- Python
+- IoTknit
+
+We used the example provided by ulno as a template and modified it to fit our scenario. We used IoTknit to write the code and connected to the IoTempower gateway. Here are the main steps we took:
+
+1. Imported the necessary libraries, including iotknit and time.
+2. Created a client to connect to the MQTT broker on the IoTempower gateway using the publisher() function.
+3. Defined the MQTT topics we will be using (temp and ac) using the publisher() function.
+4. Created a function to generate temperature readings between 20 and 30 degrees Celsius.
+5. Created a while loop to continuously post temperature readings every second to the temperature topic.
+6. Added a condition to turn on/off the air conditioning unit based on the temperature reading. If the temperature is above 25 degrees, we send a message to the ac topic to turn on the air conditioning unit. If the temperature is below 25 degrees, we send a message to the ac topic to turn off the air conditioning unit.
+
+Here's the output of a terminal listening on "#"
+
+![alt text](../../Pictures/Week_4/mqtt_temp_with_ac.jpg)
 
 
+[AC simulator](../../Arduino_sketches/Python_cripts_Lab4/AC_sim.py) is running in one terminal and<br>
 
+[Temperature simulator](../../Arduino_sketches/Python_cripts_Lab4/temp_sim.py) is running in another.
 
-Conclusion
+## Conclusion
 
 Insert a brief summary of what was learned during the testing of MQTT communication with the IoTempower gateway, including any challenges faced and how they were overcome.
 
 
-
-
-## MQTT integration
-Familiarize yourself with mqtt_action and either rebuild the example from the video or build a scenario related integration.
-Rebuild the air conditioning integrator component from the video (either with IoTknit in Python or directly with paho.mqtt in the language of your choice - Bash with mosquitto clients, Python, Java, C#, Golang all work well for that purpose) - code and small explanation of problems faced or steps taken in portfolio is enough here.
-## MQTT simulators
-Build two simulator components (with IoTknit or in language of your choice):
-Temperature Simulator: One simulator component should be creating (publish) temperature values on a specific topic (the same from your integrator). The values should slowly rise and then slowly drop again and then repeat from the beginning again when the controller is running.
-AC Simulator: One simulator component should consume (subscribe to) on/off values on a specific /set topic (the same from your integrator - add the set to your integrator if you missed it) and in some format present its own status on the console or as a UI (for example: should display every second: “AC is turned on” or “off” respectively).
-Show the two simulators with the integrator in concert (fix things if they don’t work)
-Supply steps, code, and screenshots from running everything together. 
-## MQTT on microcontroller
-(This might slip into homework, don’t worry, you are still doing well if you managed until part of the previous task, but you are supposed to finish everything until the next lab. Don’t hesitate to reach out in discord when you work at home.)
-Build the two simulators in hardware and program the Wemos D1 Mini respectively. Use this library for MQTT: https://registry.platformio.org/libraries/knolleary/PubSubClient (PubSubClient by Nick O’Leary).
-This means you need two Wemos D1 Mini, the tripler board, the dallas temperature shield, and the relay shield:
-For the temperature reader connect the tripler on the Wemos D1 Mini, mount the dallas temperature shield on one of the sides (else the temperature sensor measures the chip temperature of the esp8266). Program it following the PubSubClient mqtt_esp8266 example (publisher part). For the dallas temperature sensor use this library (test the example for it first before adding MQTT): https://github.com/milesburton/Arduino-Temperature-Control-Library (DallasTemperature by Miles Burton) - study the shield layout to find the GPIO pin (or ask your friendly instructors)
-For the relay switch (the “AC unit”), you can switch the relay directly with digitalWrite, so you can start with the mqtt_esp8266 example (subscriber part) right away  - study the shield layout to find the GPIO pin (or ask your friendly instructors)
-Run it together with your integrator.
-In the portfolio, we expect the code, images of the two Wemos D1 Mini setups + steps taken and difficulties encountered.
