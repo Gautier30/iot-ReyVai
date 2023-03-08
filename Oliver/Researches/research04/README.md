@@ -1,36 +1,44 @@
-mqtt examples/purpose/software support as reply to this
-
-Purpose:
-
-Designed for IoT
-Broker and Client (Publish/Subscribe)
-Allows to inspect 
-Very lightweight
-Widely used
-Built- in security
 
 
-Example usage:
+## MQTT
 
-Smart home devices
-thermostats
-wearable devices
+- Example usage:
 
-Has upport for ESP
+A humidity sensor publishes that all devices listening to it must start watering the plants immediately.
+A Party sensor senses high likelyhood for a pary - start party protocol. Disco lights turn on, music starts playing, and guests are invited.
 
-coap examples/purpose/software support as reply to this
-turn on an led with a web request
+- Purpose/challenge:
 
-Purpose:
+It is designed for IoT and allows efficient communication between devices.
+
+MQTT uses Broker and Client (Publish/Subscribe) archidecture.
+
+It is easy to debug and inspect messages sent and received
+
+MQTT is lightweight and good for resource-constrained enviorments.
+
+It is widely used and has good support
+
+MQTT has support for built-in security
+
+- Software support
+
+Has good support for ESP with vsmqtt
+
+## CoaP
+
+- Example
+
+CoaP is also used in the same places 
+
+- Purpose:
 
 Designed for IoT and good for bad connectivity
 runs on UDP
 GET, POST, PUT and DELETE 
 supports XML, JSON, CBOR
 
-Example usage:
-
-IKEA wifi devices
+- Software support
 
 Less libraries for CoaP than MQTT
 https://github.com/automote/ESP-CoAP
