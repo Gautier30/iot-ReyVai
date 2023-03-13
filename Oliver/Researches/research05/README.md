@@ -2,7 +2,7 @@ How can we develop and manage software faster for IoT?
 We can use IoT integration frameworks
 
 
-● What are the key challenges of IoT and why?
+What are the key challenges of IoT and why?
 -
 - it is "ever-growing", the number of devices increases exponentially
 - IoT platforms have to work with eachother
@@ -12,28 +12,27 @@ We can use IoT integration frameworks
 - latency
 - not reliable/ cost effective
 - no unified standard
------
-- 
+---
 
-● What is/are the generic solution(s) for it?
+What is/are the generic solution(s) for it?
 -
 - IoT standards
 - HIP hybrid integration platform ***
 - Fog Computation - keeps data at the edge, adding computation to gateways and devices
 - dataflow pipeline 
 
-● Two examples for used patterns.
+Two examples for used patterns.
 -
 - enterprise integration patterns
 
 
-● What are the different categories of the presented
+What are the different categories of the presented
 frameworks?
 -
 - Dataflow pipeline
 - Stream processing
 - Process engine
-● What are the main features of each category?
+What are the main features of each category?
 -
 Flows:
 - 
@@ -45,7 +44,7 @@ Streams:
 Process Engine:
 - Logic at the edge
 - wiring together hardware
-● Three or more examples of applications.
+Three or more examples of applications.
 -
 For flows:
 - nifi
@@ -63,6 +62,6 @@ Process Engine:
 - Node-Red
 - Flogo
 
-● Three or more examples of available tools.
+Three or more examples of available tools.
 -
 - industrial 
