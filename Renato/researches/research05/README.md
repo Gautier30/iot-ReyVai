@@ -94,3 +94,11 @@ Flogo
 
 
 ## Node-red
+
+It was enjoyable to get a hands-on introduction of Node-Red in the lecture. 
+
+We were able to get the button working on the mqtt node. 
+
+![alt text](/home/renato/Documents/Doutorado/IOT_UT/iot-ReyVai/Renato/pictures/node-red_flow.png "Node-red flow")
+
+Pair_Folder/NodeRed_flows/flows_button.json 

@@ -30,6 +30,10 @@ term, the entities of interest [7].
 
 – Nodes
 
+Schematic that shows the relations between those terms: 
+
+![alt text](https://media.discordapp.net/attachments/1074995984775512095/1077547210369138718/image.png)
+
 ## Exchange formats
 
 Human readable

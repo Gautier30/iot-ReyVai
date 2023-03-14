@@ -67,7 +67,7 @@ I started searching for a research strategy to help me be a participant observer
 ## Week 4
 
 I found that posting to Discord made things a bit confusing to read and discuss.
-The video played in fastspeed not so good. 
+The video played in fast speed was not such a good idea. 
 
 Share the finds verbally with group was better and faster.
 
@@ -75,3 +75,19 @@ Share the finds verbally with group was better and faster.
 Video can start on the action already.
 
 Discussing with Matevz today I realized that the portfolio is a pedagogical tool to better students habits on documentation. Documenting their work through git and markup is way for them to get used to this part of programming. 
+
+## Week 5
+
+I believe the demonstration of the Node-red in the class was very important. It brings some understanding and a practical example of the application. It was still fast pasted though. I have been discussing with prof. Ulrich about this fast past and the amount of material he tries to fit in every meeting. Especially in the lab. 
+
+I see that every group only gets about half way into the exercises and most of it left to be done at home. Home is not a problem, but the trouble I see is that the more complex exercises are left for home. In my group I see that we do not always have time to meet outside of class, and for this reason, only one person ends up finishing the exercises of the Lab. 
+
+Last thing that strikes me is that we do not usually have time in the next lecture to bring our doubts and problems from the week before. And somethings get unresolved which to me creates this limbo since the subject relay on on building up from previous week's learning. 
+
+In the positive end, I believe the gateway Raspberry Pi is a strong tool that encourage group work. How every group can manage their own network is innovative solution for the teaching of IoT. It centers the teaching around the network infrastructure (mini). I also believe that for the students to take the network home is also a breakthrough. 
+
+In this sense the IoTgateway functions as a **design thing** and also a Provotype sometimes. 
+
+For example, I found it really frustrating to have merge conflicts in Node-Red with my Group mates, but that enforced us to come up with a solution to work together, which again, I wished we had more time to do it. 
+
+In my point of view, we could used the entire Lab for one exercise only. The discord connection with the 
