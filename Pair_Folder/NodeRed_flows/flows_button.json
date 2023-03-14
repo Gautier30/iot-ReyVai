@@ -1,0 +1,174 @@
+[
+    {
+        "id": "29d66a4c9b269512",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0f31ed4104e13ac3",
+        "type": "inject",
+        "z": "29d66a4c9b269512",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "hello world",
+        "payloadType": "str",
+        "x": 180,
+        "y": 140,
+        "wires": [
+            [
+                "e6b764e25c411913"
+            ]
+        ]
+    },
+    {
+        "id": "e6b764e25c411913",
+        "type": "debug",
+        "z": "29d66a4c9b269512",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "47f53fa2c9b879e9",
+        "type": "mqtt in",
+        "z": "29d66a4c9b269512",
+        "name": "",
+        "topic": "button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4d6296f2db4785e3",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "e6b764e25c411913"
+            ]
+        ]
+    },
+    {
+        "id": "b1cc3786b7f50e6b",
+        "type": "ui_switch",
+        "z": "29d66a4c9b269512",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "2e7b447f8a602f27",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "a65411173648ca97"
+            ]
+        ]
+    },
+    {
+        "id": "a65411173648ca97",
+        "type": "mqtt out",
+        "z": "29d66a4c9b269512",
+        "name": "",
+        "topic": "test01/blue/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4d6296f2db4785e3",
+        "x": 540,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "4d6296f2db4785e3",
+        "type": "mqtt-broker",
+        "name": "local mqtt broker on gateway",
+        "broker": "192.168.12.1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "2e7b447f8a602f27",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "f084747d9b4f2415",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f084747d9b4f2415",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

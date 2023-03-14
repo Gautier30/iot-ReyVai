@@ -1,0 +1,201 @@
+[
+    {
+        "id": "4ee5c6827b686251",
+        "type": "tab",
+        "label": "temp_simulator_ac_relay",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "46a0e11f9168173b",
+        "type": "mqtt in",
+        "z": "4ee5c6827b686251",
+        "name": "",
+        "topic": "temp/room1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4d6296f2db4785e3",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "29d6139ecc5d485c"
+            ]
+        ]
+    },
+    {
+        "id": "29d6139ecc5d485c",
+        "type": "switch",
+        "z": "4ee5c6827b686251",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "27",
+                "vt": "str"
+            },
+            {
+                "t": "lt",
+                "v": "27",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 320,
+        "wires": [
+            [
+                "c29640a4b25e81c6"
+            ],
+            [
+                "e7921ebd5d511ee7"
+            ]
+        ]
+    },
+    {
+        "id": "2c05b2427f1edefd",
+        "type": "debug",
+        "z": "4ee5c6827b686251",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c29640a4b25e81c6",
+        "type": "change",
+        "z": "4ee5c6827b686251",
+        "name": "one",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 320,
+        "wires": [
+            [
+                "2c05b2427f1edefd",
+                "fcf9da892ccf59a9"
+            ]
+        ]
+    },
+    {
+        "id": "fcf9da892ccf59a9",
+        "type": "rbe",
+        "z": "4ee5c6827b686251",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 870,
+        "y": 320,
+        "wires": [
+            [
+                "53353dcc40861f9b"
+            ]
+        ]
+    },
+    {
+        "id": "53353dcc40861f9b",
+        "type": "mqtt out",
+        "z": "4ee5c6827b686251",
+        "name": "",
+        "topic": "hvac",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4d6296f2db4785e3",
+        "x": 1050,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e7921ebd5d511ee7",
+        "type": "change",
+        "z": "4ee5c6827b686251",
+        "name": "zero",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 380,
+        "wires": [
+            [
+                "2c05b2427f1edefd",
+                "fcf9da892ccf59a9"
+            ]
+        ]
+    },
+    {
+        "id": "4d6296f2db4785e3",
+        "type": "mqtt-broker",
+        "name": "local mqtt broker on gateway",
+        "broker": "192.168.12.1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
