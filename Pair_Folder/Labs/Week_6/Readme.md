@@ -16,6 +16,8 @@ test01 > setup.cpp
 
 We than subscribed an MQTT input in Node-red to test01/b1 to see the msgs coming in. 
 
+![alt text](../..//Pictures/Week_6/depressed_button.gif)
+
 On task n.4 Button to sound and notification we were not able to get any sound out as it had no Voice installed on the PI. 
 
 With the help of Professor Ulrich we were able to record some sound from our laptop using: 
