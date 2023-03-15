@@ -23,3 +23,4 @@ With the help of Professor Ulrich we were able to record some sound from our lap
     parecord hello_nodered.wav
 
 Than we drag and dropped the audio file in the Pi file system via Cloud Commander. Finally using the node-red file node, we could direct this WAV to the Gauge out put sound notification node. 
+We followed the video tutorial and were successful at deploying the first 
