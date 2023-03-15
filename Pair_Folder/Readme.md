@@ -16,6 +16,8 @@ Here we store all the exercises, pictures and projects we did in the exercise le
 
 [Week 5](Labs/Week_5/Readme.md)
 
+[Week 6](Labs/Week_6/Readme.md)
+
 ## Projects
 
 ## Pictures

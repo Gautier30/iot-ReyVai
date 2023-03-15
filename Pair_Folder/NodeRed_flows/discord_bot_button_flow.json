@@ -1,0 +1,121 @@
+[
+    {
+        "id": "3ea4de96dbf8f19d",
+        "type": "tab",
+        "label": "buton_discord",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2eb400be07c6e47b",
+        "type": "mqtt in",
+        "z": "3ea4de96dbf8f19d",
+        "name": "",
+        "topic": "button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4d6296f2db4785e3",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 140,
+        "wires": [
+            [
+                "3ea04318829fc387"
+            ]
+        ]
+    },
+    {
+        "id": "1261ac9dd7ee5918",
+        "type": "debug",
+        "z": "3ea4de96dbf8f19d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d615c7b36865497a",
+        "type": "discordMessage",
+        "z": "3ea4de96dbf8f19d",
+        "name": "sandbox",
+        "channelIdFilter": "",
+        "token": "",
+        "x": 400,
+        "y": 320,
+        "wires": [
+            [
+                "1261ac9dd7ee5918",
+                "79f2940c1eff08f6"
+            ]
+        ]
+    },
+    {
+        "id": "3ea04318829fc387",
+        "type": "discordMessageManager",
+        "z": "3ea4de96dbf8f19d",
+        "name": "sandbox",
+        "channel": "1082227593111162970",
+        "token": "",
+        "x": 700,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79f2940c1eff08f6",
+        "type": "mqtt out",
+        "z": "3ea4de96dbf8f19d",
+        "name": "",
+        "topic": "relay",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4d6296f2db4785e3",
+        "x": 730,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4d6296f2db4785e3",
+        "type": "mqtt-broker",
+        "name": "local mqtt broker on gateway",
+        "broker": "192.168.12.1",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
