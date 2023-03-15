@@ -93,7 +93,7 @@ void reconnect() {
       // Once connected, publish an announcement...
       client.publish("outTopic", "hello world");
       // ... and resubscribe
-      client.subscribe("inTopic");
+      client.subscribe("relay");
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
@@ -132,7 +132,7 @@ void loop() {
     // publish on:
       if (now - lastMsg > 500) {
     lastMsg = now;
-     snprintf (msg, MSG_BUFFER_SIZE, "on", buttonState);
+     snprintf (msg, MSG_BUFFER_SIZE, "hello Bot", buttonState);
      Serial.print("Publish message: ");
     Serial.println(msg);
     client.publish("button", msg);
