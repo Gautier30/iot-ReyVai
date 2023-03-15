@@ -86,8 +86,39 @@ Last thing that strikes me is that we do not usually have time in the next lectu
 
 In the positive end, I believe the gateway Raspberry Pi is a strong tool that encourage group work. How every group can manage their own network is innovative solution for the teaching of IoT. It centers the teaching around the network infrastructure (mini). I also believe that for the students to take the network home is also a breakthrough. 
 
-In this sense the IoTgateway functions as a **design thing** and also a Provotype sometimes. 
+### In this sense the IoTgateway functions as a **design thing** and also a Provotype sometimes. 
+
 
 For example, I found it really frustrating to have merge conflicts in Node-Red with my Group mates, but that enforced us to come up with a solution to work together, which again, I wished we had more time to do it. 
 
-In my point of view, we could used the entire Lab for one exercise only. The discord connection with the 
+In my point of view, we could used the entire Lab for a few exercises only. The discord connection was the most relevant to me at this one lab. It would be enough to do that and maybe build on that to create creative nodes interaction.
+
+## Week 6
+
+It was relevant to think critically about scaling and what the challenges could be. I also believe that these discussions are getting more adapt time wise. But this discussion took too much class time that could have been used to Introduce IoTempire Framework better or maybe even introduce another framework. 
+
+There is no need to over justify why we are using IoTempire in the class unless the students question it.
+
+I was not sure if sharing the results in a DOC is more effective than just discussing about it only. (maybe something to be tested here)
+
+LAB
+
+I noticed that in the LAB things are hepatic and chaotic because we are dealing with many layers of activities at the same time. 
+
+This specific lab was about trying out IoTempower so it should focus (and only) on that: 
+
+- How to use cloud commander;
+- how to setup a first node;
+- How to adopt a node properly;
+- How to create a new file for a topic; 
+- How to find the examples;
+
+And than build on top of that. Use the button node to send an audio alert, etc. 
+
+***OBS***: The ESP 32 set up with DHT22 made no sense to be in this lab. It had no apparent connection with learning how to use the FrameWork. It took valuable time form the Lab and it was not working. This does not mean it should not be introduced at some point, but just in a different lab.
+
+Maybe have lab devoted for other alternative board besides the D1 mini. 
+
+There was no time for the RFID. I still think that the precious class time should be used for the hardest tasks. They usually spill over for home where we have no support. 
+
+It would be good to use a part of the next lecture to help with the issues from the spilled over tasks.

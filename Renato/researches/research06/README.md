@@ -21,7 +21,9 @@ How to secure your devices against vandalism and natural teardown.
 
 – How can we do testing?
 
-ChatGPT says that Testing IoT scaled up systems and frameworks that support many nodes can be a challenging task, but here are some strategies you can consider:
+ChatGPT says: 
+
+    Testing IoT scaled up systems and frameworks that support many nodes can be a challenging task, but here are some strategies you can consider:
 
     Emulation and Simulation: One way to test IoT systems and frameworks at scale is through emulation and simulation. This approach involves creating a virtual environment that mimics the behavior of the actual system. By doing so, you can test the system at scale without the need for a physical deployment.
 
@@ -51,10 +53,10 @@ MQTT just confusion word, to make system to seem complicated and expensive, to g
 
 ## Meet IoTempower video
 
-– Mark features that IoTempower seems to offer from your list:
+Mark features that IoTempower seems to offer from your list:
 
-Management of architecture and Hierarchy.
-Over the air flashing. Flash all the devices in the subfolder.
-Integration support.
-Framework handles all the MQTT protocol, systems idea.
-Feedback from the node devices with 5s blinking.
+- Architecture and hierarchical management.
+- Over the air flashing. Capability to flash all the devices in the subfolder.
+- Integration support with Node-Red and IoTKnit
+- Framework handles all the system demands, protocols, etc.
+- Feedback from the node devices with 5s blinking is a very nice feature as it offers a visual interface that proves the node is up and running.
