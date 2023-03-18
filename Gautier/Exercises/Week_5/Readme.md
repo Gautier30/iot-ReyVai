@@ -50,4 +50,16 @@ How can we develop and manage software faster for IoT?
 
 ### Node-RED intro
 
+*Flow 1* 
+
+![alt text](../..//Pictures/Week_5/flow1.png)
+
+*Flow 2*
+
+![alt text](../..//Pictures/Week_5/flow2.png)
+
+*The flows ad JSON*
+
+[Flows Intro](Node-RED_flows/Node_RED_Intro)
+
 ### Node-RED dashboard
