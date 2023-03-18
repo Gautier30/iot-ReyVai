@@ -1,6 +1,25 @@
 ## Lab 6
 
-ESP32 was not working. 
+### DHT22 ESP32
+
+Using the PubSubClient MQTT example adapted for the ESP32 we managed to get the DHT22 working and we could plot the values on our Node-RED dashboard.
+
+The DHT22 reading is based on the Adafruit_Sensor.h library and DHT.h.
+
+We had to replace the ESP8266WIFI.h library by Wifi.h
+
+The DHT pin with the shield is actually 16.
+
+We had some issue to get the ESP to connect to the WIFI but it worked eventually and the plot does increase when we blow hot air on the sensor.
+
+![alt text](../..//Pictures/Week_6/dht22-esp32.png)
+
+Flow:
+
+```
+[{"id":"beed5f2392292e59","type":"tab","label":"Temperature ESP32","disabled":false,"info":"","env":[]},{"id":"42c577b04c3ce392","type":"mqtt in","z":"beed5f2392292e59","name":"","topic":"temp","qos":"2","datatype":"auto-detect","broker":"4d6296f2db4785e3","nl":false,"rap":true,"rh":0,"inputs":0,"x":250,"y":320,"wires":[["008a417e3dc136fd","322a4246d2ed18d6"]]},{"id":"008a417e3dc136fd","type":"debug","z":"beed5f2392292e59","name":"debug 5","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":480,"y":320,"wires":[]},{"id":"322a4246d2ed18d6","type":"ui_chart","z":"beed5f2392292e59","name":"","group":"2e7b447f8a602f27","order":0,"width":0,"height":0,"label":"Temperature","chartType":"line","legend":"false","xformat":"HH:mm:ss","interpolate":"linear","nodata":"","dot":false,"ymin":"","ymax":"","removeOlder":1,"removeOlderPoints":"","removeOlderUnit":"3600","cutout":0,"useOneColor":false,"useUTC":false,"colors":["#1f77b4","#aec7e8","#ff7f0e","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5"],"outputs":1,"useDifferentColor":false,"className":"","x":510,"y":240,"wires":[[]]},{"id":"4d6296f2db4785e3","type":"mqtt-broker","name":"local mqtt broker on gateway","broker":"192.168.12.1","port":"1883","clientid":"","autoConnect":true,"usetls":false,"protocolVersion":"4","keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","birthMsg":{},"closeTopic":"","closeQos":"0","closePayload":"","closeMsg":{},"willTopic":"","willQos":"0","willPayload":"","willMsg":{},"userProps":"","sessionExpiry":""},{"id":"2e7b447f8a602f27","type":"ui_group","name":"Default","tab":"f084747d9b4f2415","order":1,"disp":true,"width":"6","collapse":false,"className":""},{"id":"f084747d9b4f2415","type":"ui_tab","name":"Home","icon":"dashboard","disabled":false,"hidden":false}]
+
+```
 
 ### First Node Lab
 
