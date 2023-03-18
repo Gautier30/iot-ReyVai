@@ -60,6 +60,8 @@ How can we develop and manage software faster for IoT?
 
 *The flows ad JSON*
 
-[Flows Intro](Node-RED_flows/Node_RED_Intro)
+[Flow 1](../../Additional_things/Node-RED_flows/Node-RED_Intro/flow1.json)
+
+[Flow 2](../../Additional_things/Node-RED_flows/Node-RED_Intro/flow2.json)
 
 ### Node-RED dashboard
