@@ -27,6 +27,23 @@
 - Simulations help get a better picture of issues that might rise (Covered by IoTempower)
 - MQTT helps quick prototyping (Covered by IoTempower)
 
+---
+## How does Node-RED (IoT Integration Platform) help?
+
+Node-Red has many already built-in features that provides a UI for programming and creating workflows. Using it has a little learning curve but once familiar with it development speed can increase substantially.
+
+## Is PlatformIO enough for development support?
+
+PlatformIO can provide a wide variety of board support with the benefit of many built-in libraries. Libraries are easy to search based on boards. It has the benefit of being able to code in VScode which opens up possibilities of automatic code completion and correction.
+
+## Would it be helpful if the framework were open (what would we gain)? How open does it need to be (maybe even think about software license)?
+
+There are a bunch of copyright rules that need to be followed. If the framework is open then your code that uses that open framework needs to also be open to the public. Software licenses can be very expensive and for smaller projects are not always a viable option.
+
+
+
+
+
 ## This is what we came up with collectively as a class:
 
 Scaling up!
