@@ -40,8 +40,13 @@ Overall, testing IoT systems and frameworks that support many nodes requires a c
 – What would you like to see for scaling up? (What is not so great currently?)
 
 I think that deploying the Node at the moment is very time consuming and also frustration as it is very handcrafted. We can only upload one node at a time and it needs.
-Over the air updates and deploying. 
+
+Over the air updates and deploying.
+Multi device compilation 
 A Framework with easy integration.
+Architecture management
+Snapshots for stable drivers. 
+
 
 – What role will play simulator(-component)s, MQTT, and stories?
 
