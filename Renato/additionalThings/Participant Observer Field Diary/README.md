@@ -122,3 +122,12 @@ Maybe have lab devoted for other alternative board besides the D1 mini.
 There was no time for the RFID. I still think that the precious class time should be used for the hardest tasks. They usually spill over for home where we have no support. 
 
 It would be good to use a part of the next lecture to help with the issues from the spilled over tasks.
+
+
+## Week 7
+
+I must point out that on the lab this week, the way all 3 members of my team could be accessing the same gateway and work on the same time (flashing cannot be done at the same time).
+
+The documentation was outdated and we where having problems initializing a simple relay node.
+
+Gautier was saying that he does not like how everything is hidden and he did not do everything from scratch. So when these things happen, we are just stuck. If he wrote most of the code, he can debug it easier.
