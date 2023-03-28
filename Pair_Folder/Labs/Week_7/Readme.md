@@ -18,7 +18,7 @@ We managed to control the LED, relay, and display separately, but we did not man
 
 ## Separate Node Functionality
 
-1. LED Control: Successfully changed the RGB LED color according to the access decision.
+1. LED Control: Successfully changed the RGB LED color according to the access decision. The colour of the red was flipped tho.
 2. Relay Control: Managed to control the solenoid drawer lock, locking and unlocking based on the access decision.
 3. Display Control: Displayed "Access granted" or "Access denied" on the screen according to the RFID reader's output.
 
