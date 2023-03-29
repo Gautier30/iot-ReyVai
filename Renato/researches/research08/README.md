@@ -39,7 +39,7 @@ Plugin that help us with 3D visualization
 ## Node-red
 
 Capacity analog sensor.
-Too many values. Neeed to implement filters.
+Too many values. Need to implement filters.
 Use the node Delay for filters in node red.
 
 Limit on the device using the .pollrate(10) or
@@ -51,4 +51,4 @@ We can use influxDB with node-red also. use the inject node.
 
 Node red makes it easy to create interactive interaction.
 
-But Graphana is more refined in the data visualization and customization.
+But Grafana is more refined in the data visualization and customization.
