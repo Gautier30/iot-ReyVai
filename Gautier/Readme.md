@@ -40,3 +40,8 @@ My portfolio
 [Exercises](/Gautier/Exercises/Week_8/Readme.md)
 
 [Reflections](/Gautier/Reflections/Week_8/Readme.md)
+
+## Week 9
+[Exercises](/Gautier/Exercises/Week_9/Readme.md)
+
+[Reflections](/Gautier/Reflections/Week_9/Readme.md)
