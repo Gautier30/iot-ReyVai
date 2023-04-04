@@ -21,3 +21,5 @@
 
 **Time series database:** A database which data is timestamped.
 
+*Wrapping up: both Grafana and Node-RED should be used for different applications. Maybe Node-RED is easier at a prototyping stage, but then, when the time comes to present results or deploy a solution to the public, Grafana seems more appropriate.*
+
