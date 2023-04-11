@@ -164,3 +164,13 @@ The class had shorter slides. Only the next project presentation and the LED str
 The only thing in my view is that LED demos should have been done first and than next lab project presented. I mean changed the order.
 
 I also wish that lectures and labs would not be separated. Class could just have topics presented and than pratical work on the same day. For example, I would have loved it if we worked have tested the LED stirp after the demo in the class. For this, maybe "lecture" days could be longer. 4h. Then labs would only be used for the bigger projects. 
+
+## Week 10
+
+It was interesting that what the discussion we had about the final project presentation was taken into account. Postar style presentation was a clever idea for the final project days.
+
+
+This idea to invovle normal people in the collection of data. Have a little station or network for collection data. 
+
+
+Tradescantia clone - Bio sensoring. Plant mutation. More in the winter time. 
