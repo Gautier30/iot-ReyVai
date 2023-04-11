@@ -156,3 +156,11 @@ That would be really important for the libraries to be tested and functional bef
 Also it would again be important to have snapshots of the framework of more stable versions of most libraries.
 
 Ulno said that a whole stable version is an utopian idea, but a somewhat stable version is doable I believe. 
+
+## Week 9
+
+The class had shorter slides. Only the next project presentation and the LED strip demonstration with some discussions. It was a very fluent class. Making us take fewer notes and have discussing about the demonstration and videos made the class feel natural timing.
+
+The only thing in my view is that LED demos should have been done first and than next lab project presented. I mean changed the order.
+
+I also wish that lectures and labs would not be separated. Class could just have topics presented and than pratical work on the same day. For example, I would have loved it if we worked have tested the LED stirp after the demo in the class. For this, maybe "lecture" days could be longer. 4h. Then labs would only be used for the bigger projects. 
