@@ -10,11 +10,8 @@ Semi user interface.
 
 
 
-# Reflections
-
-## week 6
+## Lab
 
 Gautier was absent this week. We had the guest Emilio join our group and discussions. 
 
-## Lab
 
