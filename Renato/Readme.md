@@ -41,3 +41,38 @@
 - [Lab records](/Pair_Folder/Labs/Week_6/Readme.md)
 
 - [Reflection](/Renato/reflections/reflection06/README.md)
+
+## Week 7
+- [Research records](/Renato/researches/research07/README.md)
+
+- [Lab records](/Pair_Folder/Labs/Week_7/Readme.md)
+
+- [Reflection](/Renato/reflections/reflection07/README.md)
+
+## Week 8
+- [Research records](/Renato/researches/research08/README.md)
+
+- [Lab records](/Pair_Folder/Labs/Week_8/Readme.md)
+
+- [Reflection](/Renato/reflections/reflection08/README.md)
+
+## Week 9
+- [Research records](/Renato/researches/research09/README.md)
+
+- [Lab records](/Pair_Folder/Labs/Week_9/Readme.md)
+
+- [Reflection](/Renato/reflections/reflection09/README.md)
+
+## Week 10
+- [Research records](/Renato/researches/research10/README.md)
+
+- [Lab records](/Pair_Folder/Labs/Week_10/Readme.md)
+
+- [Reflection](/Renato/reflections/reflection10/README.md)
+
+## Week 11
+- [Research records](/Renato/researches/research11/README.md)
+
+- [Lab records](/Pair_Folder/Labs/Week_11/Readme.md)
+
+- [Reflection](/Renato/reflections/reflection11/README.md)
