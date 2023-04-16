@@ -9,7 +9,7 @@
 * Flash ("Deploy" on the UI) the µ-controller
 * Interact with the freshly created nodes with mqtt commands calling the right topic
 
-## IoTempower
+# IoTempower
 
 ## System in folders
 

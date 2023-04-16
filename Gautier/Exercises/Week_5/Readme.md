@@ -65,3 +65,5 @@ How can we develop and manage software faster for IoT?
 [Flow 2](../../Additional_things/Node-RED_flows/Node-RED_Intro/flow2.json)
 
 ### Node-RED dashboard
+*(Late update)*
+None of the flows here contain UI elements, therefore the dashboard is a blank page. But as shown in the [lab of Week 7](/Pair_Folder/Labs/Week_7/Readme.md) report we have a button for the access control project which displays whether if the access is granted or not.
