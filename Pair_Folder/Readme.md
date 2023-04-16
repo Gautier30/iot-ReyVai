@@ -2,8 +2,6 @@
 
 Here we store all the exercises, pictures and projects we did in the exercise lectures of IoT as a "pair" of three.
 
-## Exercises
-
 ## Labs
 
 [Week 1](Labs/Week_1/Readme.md)
@@ -18,7 +16,14 @@ Here we store all the exercises, pictures and projects we did in the exercise le
 
 [Week 6](Labs/Week_6/Readme.md)
 
-## Projects
+[Week 7](Labs/Week_7/Readme.md)
+
+[Week 8](Labs/Week_8/Readme.md)
+
+[Week 9](Labs/Week_9/Readme.md)
+
+[Week 10](Labs/Week_10/Readme.md)
+
 
 ## Pictures
 
@@ -31,3 +36,11 @@ Here we store all the exercises, pictures and projects we did in the exercise le
 [Week 5](Pictures/Week_5)
 
 [Week 6](Pictures/Week_6)
+
+[Week 7](Pictures/Week_7)
+
+[Week 8](Pictures/Week_8)
+
+[Week 9](Pictures/Week_9)
+
+[Week 10](Pictures/Week_10)
