@@ -47,3 +47,7 @@ Drought. 30m footpreint at 90%
 No2 - NOX
 
 Northstream
+
+Citizen science, small , pokect or backpack. Forest walker. 
+Calibrate with a better science.
+Pokemon go forest pictures for citizen science. (great Idea)
