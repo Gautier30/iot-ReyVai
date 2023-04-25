@@ -174,3 +174,40 @@ This idea to invovle normal people in the collection of data. Have a little stat
 
 
 Tradescantia clone - Bio sensoring. Plant mutation. More in the winter time. 
+
+
+## Week 12
+### Hardening in Practice
+
+● What fixes could we implement in IoTempower (and our setups)
+● What fixes in general?
+
+Very secure internet connection via gate with firewalls and the latest encryption. 
+Raise awareness
+
+Meshwork of gateways - batman. 
+Encrypt communication inside the local network. From device to device. Node to node.
+SSH with public key. Close all the outside port. Harden the SSH port. 
+
+s
+Prompt a default password change on first login (good bacholers thesis)
+Biometrics authentication (master thesis)
+
+Make network exclusive -  symmetric encryption, full encryption. 2 factor auth. 
+Use VPN - **wire guard** fall devices. 
+
+SSL on the ESP32. but not optimal. 
+TLS need a 3rd. 
+How to run a local central authority on the gateway?
+
+
+Have documentation of all the ports and links of how to harden them.
+
+White list devices. 
+WPA3 - try to use new standards. 
+
+Trusted elements. 
+Remote wipe. 
+Pigent one wire.
+
+Mesh security level for different architecture. More different type of network architecture. More levels of security zoning.
