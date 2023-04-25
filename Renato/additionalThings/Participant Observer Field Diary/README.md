@@ -175,39 +175,46 @@ This idea to invovle normal people in the collection of data. Have a little stat
 
 Tradescantia clone - Bio sensoring. Plant mutation. More in the winter time. 
 
+## Week 11
+
+Stefen 's presented the SMEAR station. Bringing in some guest lectures is really good to expand the horizon of the students with real life application. Some talk was done in the direction of how can students help the scientist with their problems, but not much concrete opportunities was presented to them to do so. I had the chance to go visit the station myself after the class. It was a very valeuable visit. We would be good to create more solid oportunities for these exchanges to happen. Use one of the challenges from the SMEAR project to be one of the classroom challenge. Or create some kind of internship for some students to go work with the TEAM from the STATION and help them solve problems as their final project.  Or maybe create teams with the MCU students to work in collaboration in one of their problems. 
+
+For me, I was thinking that IoTempower with the kit can became a good citizen science station if we can improve usability and stability. And this can be something to we could actually contribute to the Enviromental Engineering, and also a way to augment the reach of the network and create community. They way that Emilio explained how they did data collection with students in Curitiba was so rudimentary, which makes me believe that we do not need to account for so many features on our Framework to make this collaboration possible. 
+We just need to find ways for them to use it, make it possible for them to use it easily and reliably. **This is also some field work that I could do for my PhD**. 
+
+
+LAB
+
+Since the guest lecture took all the time that was assigned to the Projects presentation, I thought it was a smart strategy to make Groups actually pitch to each other their final project ideas, and have the TAs and Professor walk around and talk to all Groups instead of each group presenting in front of the whole class. This was we could do presentations and also have time left to work on our projects within the 2h Lab session.
+
+Maybe suggest that group members should sometimes take 5 min break and go see what other groups are doing so eventually everyone has an understanding of their classmate projects.
+
 
 ## Week 12
+
+The class today had a really good interaction. This fluid model finding issues on our own, than sharing them with a pair and eventually discussing it with the whole class worked quite well. 
+
+Students gave their insights of what is or can be broken in the Framework and what is a security weakness. Then they shared possible solutions and feature implementations that could mitigate these issues. Students gave valuable insight for improvements and Ulrich gave hints that these could be good Bachelor's and Masters thesis in a attempt to get some students to contribute to the framework. I believe this is a good start to try to build a more active community, though I think other strategies need to be implemented to effectively get students to join and take on these implementations for their thesis. Maybe there can be some reward for them or they can take in one of these challenges in the place of the final project (and that would be a start towards their thesis already).
+
+
+
 ### Hardening in Practice
 
-● What fixes could we implement in IoTempower (and our setups)
-● What fixes in general?
+● What fixes could we implement in IoTempower (and our setups)?
 
 Very secure internet connection via gate with firewalls and the latest encryption. 
-Raise awareness
-
+Raise awareness.
 Meshwork of gateways - batman. 
 Encrypt communication inside the local network. From device to device. Node to node.
-SSH with public key. Close all the outside port. Harden the SSH port. 
 
-s
-Prompt a default password change on first login (good bacholers thesis)
-Biometrics authentication (master thesis)
-
-Make network exclusive -  symmetric encryption, full encryption. 2 factor auth. 
-Use VPN - **wire guard** fall devices. 
-
-SSL on the ESP32. but not optimal. 
-TLS need a 3rd. 
-How to run a local central authority on the gateway?
-
-
-Have documentation of all the ports and links of how to harden them.
-
-White list devices. 
-WPA3 - try to use new standards. 
-
-Trusted elements. 
-Remote wipe. 
-Pigent one wire.
-
-Mesh security level for different architecture. More different type of network architecture. More levels of security zoning.
+- Close all the outside ports and harden the SSH port with a public Key; 
+- Prompt to change a default password on first login (good bachelors' thesis);
+- Implement biometrics authentication for the framework (master thesis);
+- Make the local network exclusive with symmetric encryption or 2 factors authorization;
+- Use VPN or wire guard on the devices;
+- Use SSL (TLS) on the ESP32. but not optimal for ESP 8266. Maybe run a local central authority on the gateway (PI);
+- Have documentation for all the ports and provide links of how to harden them;
+- White list the devices, use trusted elements and maybe a remote wipe function; 
+- Use the newest standards, WPA3. (Not supported on the Raspberry Pi Access Point); 
+- Implement PJON one wire communication for different wireless communication. 
+- Implement some kind of mesh security levels into the architecture. Many different type of network architecture for different proposes varying the risk factors. More levels of security through zoning.
