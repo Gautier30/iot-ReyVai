@@ -76,3 +76,10 @@
 - [Lab records](/Pair_Folder/Labs/Week_11/Readme.md)
 
 - [Reflection](/Renato/reflections/reflection11/README.md)
+
+## Week 12
+- [Research records](/Renato/researches/research12/README.md)
+
+- [Lab records](/Pair_Folder/Labs/Week_12/Readme.md)
+
+- [Reflection](/Renato/reflections/reflection12/README.md)

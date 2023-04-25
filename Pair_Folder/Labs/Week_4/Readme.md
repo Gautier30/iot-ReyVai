@@ -37,14 +37,32 @@ List of IoT:
 - He wants to measure the amount light that comes in the window;
 - Maybe control an LED light;
 - Measure the hight of the plants from the light;
-- Measure PH from water;
-- He needs to control a water pump for auto watering;
-- Measure Ar humidity;
-- Monitoring data daily (graph the data);
+- Measure PH from water;(v2)
+- He needs to control a water pump for auto watering; (v2)
+- Measure Ar humidity; (DHT11)
+- Monitoring data daily (graph the data); (Dashboard)
 - CO2 sensor;
 - Timelapse the growth of plants (Instagram);
 - dashboard;
-- music wth the plant
+- Scale amount of harvest. 
+- music wth the plant,
+- Screen with dashboard.
+- Local data storage.
+
+
+
+List of Sensors:
+
+LIDAR - laser,
+DHT11 - Temp and humidity,
+Capacitive soil sensor - soil humdity
+APDS 9660 - Light and color sensor. (LDR)
+Relay for LED lights
+CO2 gas sensor
+PH sensor.
+
+list 
+Solder, soldering iron, hot glue, wire, 3D printer, scissors, knife, scotch tape. 
 
 
 *Examples* 
