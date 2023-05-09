@@ -218,3 +218,29 @@ Encrypt communication inside the local network. From device to device. Node to n
 - Use the newest standards, WPA3. (Not supported on the Raspberry Pi Access Point); 
 - Implement PJON one wire communication for different wireless communication. 
 - Implement some kind of mesh security levels into the architecture. Many different type of network architecture for different proposes varying the risk factors. More levels of security through zoning.
+
+
+## Week 13
+
+Guy from industry came. Very good these
+
+
+## Week 14
+
+Dongle sounds cool. We can start the a class flashing generic IoTempower on the devices and then adopt them with the Dongle to deploy the specific network and services as needed in the achitecture later. 
+
+Flow-based Service Integration (Node-RED)
+
+Good discussing about what was missing in the course. It very valueble. Lack of structure. 
+Portfolio daunting - 
+Labs were short - 
+what about logging?
+More real applications regarding guest lectures.
+More time for low level programming/Arduino/MQTT/C++
+More networking
+Use platformio directly
+Ask guest lectures about realy world deplyment. 
+
+
+
+
