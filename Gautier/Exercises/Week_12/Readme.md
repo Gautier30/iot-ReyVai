@@ -1,83 +1,72 @@
-# Telia Guest Lecture
+## IoT is here, what could break?
 
-### **What are the driving forces behind IoT development? Is this all hype?**
+* Cybersecurity 
+    - Exploitable
+    - Threats
 
-Estonia is shutting down 3G but 2G is still in use as a backup channel in IoT.
+* Lots of attack vectors
+    - Networks (on all levels) wired and wireless
+    - Embedded systems
+        * Scooters <- hardware hacks
+        * Hue lights
+        * IR hacking
 
-Industry 4.0 can benefit from 5G.
+* Flipper Zero - Pen testing - NFC/Rfid
 
-5G improves latency which enables reliable autonomous vehicles.
+* Fragmentation
 
-## Network Technologies
+* Usually no updates
 
-**NB-IoT** (Narrow Band) is greatly used mainly because it draws less power and modules are cost effective. But it lacks in data speeds and latency is not good.
+* Routers
+    - admin/admin
 
-**LTE-M** is an imrovement of NB-IoT with a trade-off on battery life.
+* No encryption
 
-**4G/LTE** is super powerfull and supports roaming but the battery usage is super high.
+* Responsibility and ownership of devices
 
-**5G** is a huge bump in latency and data speeds from 4G but its power hungry and the devices are expensive.
+## Threats
 
-## Telia's solutions
+Common threats:
 
-* ### M2M 
+1. Zombie webcams (default password threat)
 
-    Telia has the biggest share in the M2M market.
+https://www.cisa.gov/news-events/alerts/2013/06/24/risks-default-passwords-internet#:~:text=Attackers%20can%20easily%20identify%20and,to%20critical%20and%20important%20systems. 
 
-* ### Remote metering
+2. Deauth attack
 
-    Metering is done remotely to avoid sending someone to read the water, electricity and disctrict heating consumption.
+3. Krack attack
 
-    Over 5 years Telia deployed 25,000 batter-powered ultrasonic flow sensor that send data over NB-IoT network.
+https://www.krackattacks.com/
 
-    Less labor, smaller CO2 footprint.
+4. Cyber abuse
+    
+For instance, a toxic person could spy on their partner or abuse them psychologically and physically by controlling connected devices at home, using trackers to stalk them etc.
 
-    The water meters only send out data, there is no "handshake" with the server to notify back if the packets were received. The meters have some logic to test if the network is good. If so, the data is sent, otherwise they wait to avoid spamming the server although the packets are never received. **Power is saved avoiding failed data transfers.**
+5. Man in the Middle
 
-* ### SmartCity
+Use certificates to deter anyone spoofing a connection to some legitimate server.
+Certificates are memory intensive therefore they're unusable on small devices like the D1 Mini we use in class.
 
-    Telia provides the platform and the front-end for that platform.
-    Data is aggregated for city officials > smarter decisions.
+Counter measures:
+- Layered architectures
+- Avoid wireless
+- Active community (supporting and auditing soft/hardware)
+- Opensource core infrastructure --> easier to audit and update
+- Build security into life cycle management + maintenance
 
-    Highlights:
-        
-    - Build energy class information
-    - City sound levels
-    - Recycling stations
-    - Air quality stations
-    - Public toilets, water taps
+## Hardening in practice
 
-* ### Crowd Insights
+Fixes:
 
-    Collect data from smartphones to monitor crowd movements in the city, during events... Estimate number of visitors, count foreign or resident visitors... Helps optimizing tourism and campaigns for major events.
-
-
-## What business is IoT?
-
-Data valuation business:
-- M2M
-- IoT
-- Data insights
-
-It's a digitalization business.
-
-## Sharing economy
-More and more actors in the urban environment: **Bolt** carriers (scooters, bikes...), **Starship** delivery robots...
-
-## ELMO: Remote controlled car
-
-Solves the issue of transporting one car (requires 2 persons and 2 cars for the way back) or renting cars in two locations.
-
-##  Aiomatic, Tehnopol ja MÖMesi: Smart beehive
-
-Monitor beehives:
-- Internal temperature
-- Relative humidity
-- CO2/VOC levels
-- Ambient light, sound and air pressure
-
-## Krakul OÜ - Smart shoe sole (gait analysis)
-
-"Without data you are just another person with an opinion"
-
-*Is it so? Why and why not?*
+- Software updates
+- Remote wipe (in case hardware is stolen)
+- Use last safety standards
+- Upgrade legacy systems whenever possible
+- Very secure internet connection via gateway with latest encryption protocols
+- Raise awareness (teach kids in IT classes the best practices using connected devices)
+- Connect several gateways to a a main gateway to isolate array of clients on subnetworks.
+- Implement certificate validation on ESP32s
+- Encrypt all data on the WiFi network
+- Harden SSH access with SSH keys rather than passwords
+- Close all outside ports only let access to SSH
+- Tunneling (VPN) --> WireGuard: https://www.wireguard.com/ 
