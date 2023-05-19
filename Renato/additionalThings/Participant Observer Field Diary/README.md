@@ -239,7 +239,7 @@ More real applications regarding guest lectures.
 More time for low level programming/Arduino/MQTT/C++
 More networking
 Use platformio directly
-Ask guest lectures about realy world deplyment. 
+Ask guest lectures about real world deployment. 
 
 
 

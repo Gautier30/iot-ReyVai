@@ -1,6 +1,6 @@
 # Research records 13
 
-Telia Guest speaker
+Telia Guest speaker - Viatslav???
 
 SHould our homes be smart?
 
